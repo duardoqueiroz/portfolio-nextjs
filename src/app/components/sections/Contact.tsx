@@ -47,9 +47,7 @@ const SectionContact = () => {
   const handleOnSubmit = async (values: FormValues) => {
     try {
       startLoading();
-      console.log(values);
       const db = getFirestore(app);
-      console.log(db.toJSON());
       await setDoc(doc(db, "contacts", values.email), values);
       stopLoading();
       Swal.fire("Muito bem!", "Mensagem enviada com sucesso!", "success");
