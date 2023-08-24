@@ -498,7 +498,7 @@ export const projectsContent = {
         },
       ],
       websiteLink: "",
-      figmaLink: "",
+      figmaLink: "https://www.figma.com/file/TaV7o73CcSoH6XB0UuJa0c/Pok%C3%A9dex-(Community)?type=design&node-id=0-1&mode=design&t=ZYhysHOgboBe1WcF-0",
       githubLink: "https://github.com/duardoqueiroz/pokedex-react-native",
       image: "images/pokedex-project.png",
     },
