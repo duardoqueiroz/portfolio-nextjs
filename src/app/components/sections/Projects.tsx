@@ -85,6 +85,14 @@ const SectionProjects = () => {
                       name={`${project.title}-${project.websiteLink}`}
                     />
                   )}
+                  {project.figmaLink.length > 1 && (
+                    <SocialMediaButton
+                      key={`project.id-${project.figmaLink}`}
+                      icon={"/icons/figma.svg"}
+                      link={project.figmaLink}
+                      name={`${project.title}-${project.figmaLink}`}
+                    />
+                  )}
                 </div>
               </div>
             </SwiperSlide>

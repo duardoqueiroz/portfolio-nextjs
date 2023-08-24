@@ -342,6 +342,7 @@ export const projectsContent = {
         },
       ],
       websiteLink: "https://app.spacie.com.br",
+      figmaLink: "",
       githubLink: "",
       image: "images/spacie-project.png",
     },
@@ -381,6 +382,7 @@ export const projectsContent = {
         },
       ],
       websiteLink: "https://dadosjusbr.org/",
+      figmaLink: "",
       githubLink: "https://github.com/dadosjusbr",
       image: "images/dadosjusbr-project.png",
     },
@@ -424,6 +426,7 @@ export const projectsContent = {
         },
       ],
       websiteLink: "",
+      figmaLink: "",
       githubLink: "",
       image: "images/csanalytics-project.png",
     },
@@ -467,6 +470,7 @@ export const projectsContent = {
         },
       ],
       websiteLink: "",
+      figmaLink: "",
       githubLink: "https://github.com/duardoqueiroz/simplE-commerce",
       image: "images/simplecommerce-project.png",
     },
@@ -494,8 +498,42 @@ export const projectsContent = {
         },
       ],
       websiteLink: "",
+      figmaLink: "",
       githubLink: "https://github.com/duardoqueiroz/pokedex-react-native",
       image: "images/pokedex-project.png",
+    },
+    {
+      id: "to-do-list",
+      title: "To do list",
+      description:
+        "Aplicativo que permite usuários gerenciarem seus afazeres diários. No sistema, os usuários podem se cadastrar, fazer login e criar tarefas, que podem ser marcadas como concluídas ou não.",
+      techStack: [
+        {
+          id: "to-do-list-rn",
+          stack: "React Native",
+        },
+        {
+          id: "to-do-list-react",
+          stack: "React",
+        },
+        {
+          id: "to-do-list-expo",
+          stack: "Expo",
+        },
+        {
+          id: "to-do-list-firebase",
+          stack: "Firebase",
+        },
+        {
+          id: "to-do-list-yup",
+          stack: "Yup",
+        },
+      ],
+      websiteLink: "",
+      figmaLink:
+        "https://www.figma.com/file/wamHXq2IODbXOfDJRC5nVD/TODO-Mobile-App-(Community)?type=design&node-id=0-1&mode=design&t=Mx2A29JgzqU4vygK-0",
+      githubLink: "https://github.com/duardoqueiroz/to-do-list-react-native",
+      image: "images/to-do-list-project.png",
     },
   ],
 };
